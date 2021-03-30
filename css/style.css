@@ -22,7 +22,6 @@ html {
     height: 100%;
 }
 .header-nav__list{
-    width: 300px;
     display: flex;
     align-items: center;
     list-style: none;
@@ -33,11 +32,11 @@ html {
     text-decoration: none;
 }
 .header-nav--icon{
-    width: 20px;
+    width: 18px;
 }
 .header-nav--login{
     background-color: dodgerblue;
-    padding: 10px 15px;
+    padding: 10px 20px;
     border-radius: 3px;
     margin-right: 0 20px;
     color: #ffffff;
@@ -53,3 +52,47 @@ html {
 }
 
 /* Main */
+.main{
+    width: 100%;
+    text-align: center;
+    margin-top: 200px;
+}
+
+/* Main search */
+.main__search{
+    border: 1px solid rgb(195, 195, 195);
+    width: 600px;
+    height: 45px;
+    margin: 30px auto;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main__search:hover{
+    box-shadow: 0 0 10px rgb(195, 195, 195);
+}
+.main__input{
+    margin: 0 20px;
+    width: 460px;
+    outline: none;
+    border: none;
+}
+
+/* Main Bottoms */
+.main__bottom{
+    border: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    background-color: #F9FAFB;
+}
+.main__bottom:hover{
+    border: 1px solid #e2e2e2;
+}
+
+/* Footer */
+.footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
