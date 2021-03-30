@@ -95,4 +95,37 @@ html {
     width: 100%;
     position: absolute;
     bottom: 0;
+    background-color: #F2F2F2;
+}
+.footer__country{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(195, 195, 195);
+    padding-left: 30px;
+}
+.footer__name-country{
+    font-weight: 500;
+}
+.footer-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 0 15px;
+}
+.footer-nav__about{
+    display: flex;
+}
+.footer-nav__privacy{
+    display: flex;
+}
+.footer-nav__item{
+    list-style: none;
+}
+.footer-nav__link{
+    text-decoration: none;
+    color: #000000;
+    font-size: 1.5rem;
+    margin: 0 15px;
 }
