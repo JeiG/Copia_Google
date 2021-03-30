@@ -123,6 +123,9 @@ html {
 .footer-nav__item{
     list-style: none;
 }
+.footer-nav__item:hover{
+    text-decoration: underline;
+}
 .footer-nav__link{
     text-decoration: none;
     color: #000000;
